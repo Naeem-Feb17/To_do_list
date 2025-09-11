@@ -1,0 +1,147 @@
+/* Import Google Fonts for beautiful typography */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+ 
+/* Main background for the todo app, with a soft gradient */
+.todos-bg-container {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  min-height: 100vh;
+}
+ 
+/* Main heading style */
+.todos-heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+ 
+/* Subheading for the create task section */
+.create-task-heading {
+  font-family: 'Bree Serif', serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+}
+ 
+/* Subpart of the create task heading (highlighted) */
+.create-task-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+ 
+/* Heading for the todo items section */
+.todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+ 
+/* Subpart of the todo items heading (highlighted) */
+.todo-items-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+ 
+/* List container for all todo items */
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+ 
+/* Each todo item box */
+.todo-item-container {
+  margin-top: 15px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+ 
+/* Input box for adding new todos */
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+ 
+/* Style for the Add and Save buttons */
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+ 
+/* Container for the todo label and delete icon */
+.label-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+ 
+/* Checkbox for marking todos as done */
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+ 
+/* The text label for each todo item */
+.checkbox-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #2d2d2d;
+  background: transparent;
+  transition: color 0.2s;
+}
+ 
+/* Container for the delete (trash) icon */
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+ 
+/* Trash icon style */
+.delete-icon {
+  padding: 15px;
+}
+ 
+/* Style for checked (completed) todos */
+.checked {
+  text-decoration: line-through;
+  color: #bdbdbd !important;
+}
